@@ -1,0 +1,19 @@
+{
+  "name": "reaper-online",
+  "version": "0.5.0",
+  "description": "A top-down online RPG set in a Red Rising-inspired world. Private fan project.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node test/world.js && node test/bot.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.17.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
